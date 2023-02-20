@@ -1,0 +1,24 @@
+@import "../root/functions.scss";
+// $bgcolor: lightblue;
+
+body {
+  @include flex(center, center, row);
+  min-height: 100vh;
+}
+
+#cont {
+  position: relative;
+  border: 1px #24a5f2 solid;
+}
+
+#argentina {
+  @include box(470px, 300px, 2px, #24a5f2);
+}
+
+#argentina::after {
+  @include flex(center, center, row);
+  content: url(../images/Sun_of_May.png);
+  position: absolute;
+  top: 100px;
+  @include box(470px, 100px, 0, white);
+}
