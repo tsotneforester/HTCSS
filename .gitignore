@@ -1,0 +1,9 @@
+*.scss
+*.txt
+*.ini
+*.map
+*.zip
+*.code-workspace
+/.prettierignore
+**/root/*.scss
+**/root/*.css
